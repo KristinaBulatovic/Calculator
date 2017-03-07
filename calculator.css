@@ -1,0 +1,23 @@
+.calc-main {
+    width: 350px;
+    padding: 16px;
+    border-radius: 12px;
+    background: black;
+}
+
+.calc-display {
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 45px;
+    text-align: right;
+    background: #f7f7f7;
+}
+
+input  {
+    width: 80px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 20px;
+    background: silver;
+    padding: 10px;
+}

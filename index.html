@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="calculator.css">
+
+</head>
+<body>
+<center>
+    <form name="frm1">
+    <div class="calc-main">
+        <div class="calc-display">
+            <span id="span1">0</span>
+        </div>
+        <br>
+        <input type="button" value="C" onclick="calc_result('C')">
+        <input type="button" value="+/-" onclick="calc_result('+/-')">
+        <input type="button" value="x^2" onclick="calc_result('x^2')">
+        <input type="button" value="<=" onclick="calc_result('<=')">
+        <p></p>
+        <input type="button" value="7" onclick="calc_result(7)">
+        <input type="button" value="8" onclick="calc_result(8)">
+        <input type="button" value="9" onclick="calc_result(9)">
+        <input type="button" value="/" onclick="calc_result('/')">
+        <p></p>
+        <input type="button" value="4" onclick="calc_result(4)">
+        <input type="button" value="5" onclick="calc_result(5)">
+        <input type="button" value="6" onclick="calc_result(6)">
+        <input type="button" value="x" onclick="calc_result('x')">
+        <p></p>
+        <input type="button" value="1" onclick="calc_result(1)">
+        <input type="button" value="2" onclick="calc_result(2)">
+        <input type="button" value="3" onclick="calc_result(3)">
+        <input type="button" value="-" onclick="calc_result('-')">
+        <p></p>
+        <input type="button" value="." onclick="calc_result('.')">
+        <input type="button" value="0" onclick="calc_result(0)">
+        <input type="button" value="=" onclick="calc_result('=')">
+        <input type="button" value="+" onclick="calc_result('+')">
+    </form>
+</center>
+
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
